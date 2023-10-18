@@ -1,4 +1,3 @@
-import 'package:flutter/material.dart';
 import 'CounterModel.dart';
 
 //create a class with a name CounterViewModel which inherits the class CounterModel
