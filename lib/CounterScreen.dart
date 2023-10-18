@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_mobx/flutter_mobx.dart';
-import 'CounterModel.dart';
 import 'CounterViewModel.dart';
 
+// ignore: must_be_immutable
 class CounterScreen extends StatelessWidget {
   CounterScreen({super.key});
   CounterViewModel _CounterViewModel = CounterViewModel();
@@ -36,6 +36,6 @@ class CounterScreen extends StatelessWidget {
               )
             ],
           )),
-        ))));
+    ))));
   }
 }
